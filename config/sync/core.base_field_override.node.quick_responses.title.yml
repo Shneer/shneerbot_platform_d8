@@ -1,0 +1,18 @@
+uuid: 8b9496d1-8382-490b-addf-d67fd2d86748
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.quick_responses
+id: node.quick_responses.title
+field_name: title
+entity_type: node
+bundle: quick_responses
+label: Question
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

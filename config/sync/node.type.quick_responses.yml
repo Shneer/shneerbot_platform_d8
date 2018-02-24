@@ -1,0 +1,17 @@
+uuid: eb10c6cb-ab17-460f-ba48-18ba1e605a66
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Quick Responses'
+type: quick_responses
+description: 'Simple content type for ShneerBot quick responses.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

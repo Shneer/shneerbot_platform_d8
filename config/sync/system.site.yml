@@ -1,0 +1,14 @@
+uuid: 6aa62c29-9136-4d22-b0b9-ae00a2f10641
+name: 'ShneerBot Platform'
+mail: gjibladze@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

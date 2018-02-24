@@ -1,0 +1,26 @@
+uuid: 0a139aa2-23cb-45a6-a6a8-276d6ea7206d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.quick_responses.field_response
+    - node.type.quick_responses
+  module:
+    - user
+id: node.quick_responses.default
+targetEntityType: node
+bundle: quick_responses
+mode: default
+content:
+  field_response:
+    weight: 101
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

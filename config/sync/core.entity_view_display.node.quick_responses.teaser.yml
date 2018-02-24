@@ -1,0 +1,18 @@
+uuid: 6362469a-dd71-4418-b04c-a0a1923853c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.quick_responses
+  module:
+    - user
+id: node.quick_responses.teaser
+targetEntityType: node
+bundle: quick_responses
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden: {  }
